@@ -1,0 +1,17 @@
+{
+   "name": "server_io",
+   "version": "1.0.0",
+   "description": "",
+   "engines": {
+      "node": "16.0.0"
+   },
+   "main": "sampleserver.js",
+   "scripts": {
+      "start": "node sampleserver.js"
+   },
+   "author": "abhi",
+   "license": "ISC",
+   "dependencies": {
+      "socket.io": "^4.2.0"
+   }
+}
