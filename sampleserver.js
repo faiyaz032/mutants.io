@@ -14,7 +14,7 @@ const io = require('socket.io')(server, {
    pingInterval: 2000,
 });
 
-const port = 3000;
+const port = process.env.PORT || 3000;
 
 // Listen for incoming connections
 //server.listen(port, (err) => {
